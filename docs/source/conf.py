@@ -32,6 +32,11 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+html_theme_options = {
+    'collapse_navigation': False # 默认展开所有父级目录
+
+}
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 

@@ -40,4 +40,13 @@ The project is licensed under the BSD license.
    :caption: 开始
    :name: sec-start
 
-   start/intro
+   start/intro/index
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: 手册
+   :name: sec-manual
+
+   manual/chapter1/index
