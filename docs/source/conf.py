@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = '《Unix网络编程》手册'
+copyright = '2024, 向洵'
+author = '向洵'
 
 release = '0.1'
 version = '0.1.0'
@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'breathe'
 ]
 
 intersphinx_mapping = {
@@ -33,3 +34,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+
+breathe_projects = {"MyProject": "../../../../mylib/docs/xml"}
+breathe_default_project = "MyProject"

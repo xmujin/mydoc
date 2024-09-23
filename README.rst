@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+《Unix 网络编程》文档
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+使用Sphinx模板构建
 
 Read the tutorial here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://xiangxun-docs.readthedocs.io/zh-cn/latest/
