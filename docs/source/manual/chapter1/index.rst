@@ -1,16 +1,15 @@
-sdfsdfsdf
+第一章
 ===========
 
 
-
-sdjfisdjfio
-sdfsdfsdf
-
-sdfsdfsdf
-
-
-sdfsdfsdrf
+.. literalinclude:: ./daytimetcpcli.c
+   :caption: intro/daytimetcpcli.c
+   :language: c
 
 
 
-sdfsdf
+.. literalinclude:: ./daytimetcpsrv.c
+   :caption: intro/daytimetcpsrv.c
+   :language: c
+
+

@@ -68,3 +68,22 @@ apue.h头文件中。
 
    将apue.h和error.c放入自己项目文件夹中，或是移动到
    /usr/local/include下。
+
+
+再次尝试编译
+
+.. code-block:: bash
+
+    $ gcc daytimetcpcli.c -o client
+
+
+
+可能会出现bzero函数的警告，这是因为gcc采取的标准不同
+，bzero是基于BSD系统的，而gcc默认不会按照该标准，
+因此现在是处于弃用的情况，要想启用该函数，需要导入
+:code:`#include <strings.h>`
+这个头文件，并输入以下命令：
+
+.. code-block:: bash
+
+    $ gcc daytimetcpcli.c -o client -D_DEFAULT_SOURCE

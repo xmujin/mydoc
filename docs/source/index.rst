@@ -12,7 +12,7 @@ Features
 Usage
 ------------
 
-请查看 :doc:`前言 <start/intro>`
+请查看 :doc:`前言 <start/intro/index>`
 
 Contribute
 ----------
